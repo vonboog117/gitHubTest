@@ -14,6 +14,7 @@
 		E72FA6581BEBC4E800FA6B57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E72FA6561BEBC4E800FA6B57 /* LaunchScreen.storyboard */; };
 		E72FA6631BEBC4E800FA6B57 /* gitHubTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72FA6621BEBC4E800FA6B57 /* gitHubTestTests.swift */; };
 		E72FA66E1BEBC4E800FA6B57 /* gitHubTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72FA66D1BEBC4E800FA6B57 /* gitHubTestUITests.swift */; };
+		E7F871671BED041000EFF0B5 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F871661BED041000EFF0B5 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E72FA6691BEBC4E800FA6B57 /* gitHubTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitHubTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E72FA66D1BEBC4E800FA6B57 /* gitHubTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitHubTestUITests.swift; sourceTree = "<group>"; };
 		E72FA66F1BEBC4E800FA6B57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7F871661BED041000EFF0B5 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				E72FA64D1BEBC4E800FA6B57 /* AppDelegate.swift */,
 				E72FA64F1BEBC4E800FA6B57 /* ViewController.swift */,
 				E72FA6511BEBC4E800FA6B57 /* Main.storyboard */,
+				E7F871661BED041000EFF0B5 /* ImageViewController.swift */,
 				E72FA6541BEBC4E800FA6B57 /* Assets.xcassets */,
 				E72FA6561BEBC4E800FA6B57 /* LaunchScreen.storyboard */,
 				E72FA6591BEBC4E800FA6B57 /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E72FA6501BEBC4E800FA6B57 /* ViewController.swift in Sources */,
+				E7F871671BED041000EFF0B5 /* ImageViewController.swift in Sources */,
 				E72FA64E1BEBC4E800FA6B57 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +488,7 @@
 				E72FA6741BEBC4E800FA6B57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E72FA6751BEBC4E800FA6B57 /* Build configuration list for PBXNativeTarget "gitHubTestTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				E72FA6771BEBC4E800FA6B57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E72FA6781BEBC4E800FA6B57 /* Build configuration list for PBXNativeTarget "gitHubTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				E72FA67A1BEBC4E800FA6B57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
